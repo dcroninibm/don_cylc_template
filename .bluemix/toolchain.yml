@@ -17,14 +17,14 @@ insights:
   
 
 # Github repos
-github-repo-rubygems:
+github-repo-pip:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "Rubygems"
-    repo_url: "https://github.com/rubygems/rubygems.git"
+    repo_name: "Pip"
+    repo_url: "https://github.com/pypa/pip.git"
     type: link
     has_issues: true
   hidden: [form, description]
