@@ -17,13 +17,13 @@ insights:
   
 
 # Github repos
-github-repo-zookeeper:
+github-repo-bitcoin:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "Zookeeper"
+    repo_name: "Bitcoin"
     repo_url: "https://github.com/bitcoin/bitcoin.git"
     type: link
     has_issues: true
